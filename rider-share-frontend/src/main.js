@@ -13,7 +13,7 @@ app.use(createPinia())
 app.use(router)
 app.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyAH5-sdn1UN4m2V5XkNFjcZeQsiaRsmUew',
+        key: 'googlemap-key',
         libraries: "places"
     },
 });
